@@ -26,7 +26,7 @@ Before you begin, you'll need:
 
 ### Step 1: Create Your Configuration File
 
-1. Locate the file named `.env.example` in the tool directory
+1. Download the file named `.env.example` in the tool directory (https://raw.githubusercontent.com/jiehua1995/LabFolder_Backup/refs/heads/main/.env.example)
 2. Make a copy and rename it to `.env` (remove the `.example` part)
 3. Open `.env` in a text editor
 4. Update the following fields with your credentials:
@@ -55,7 +55,7 @@ Before you begin, you'll need:
 
 #### Steps:
 1. **Download** the executable file:
-   - 📥 [Download LabFolder Backup Tool (Windows)](https://github.com/your-repo/releases/latest)
+   - 📥 [Download LabFolder Backup Tool (Windows)](https://github.com/jiehua1995/LabFolder_Backup/releases/download/v0.1.8/LabFolder.Archive_win_v0.1.8.exe)
 2. **Place** the executable in a folder where you want to store backups
 3. **Ensure** your `.env` file is in the same directory as the executable
 4. **Double-click** the executable file to run it
