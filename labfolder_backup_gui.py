@@ -29,8 +29,10 @@ else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     EXECUTABLE_DIR = Path(BASE_DIR)
 
+
 # Update paths for bundled files
-ENV_FILE = Path(BASE_DIR) / '.env'  # For loading
+# ENV_FILE: always points to the .env in the executable/script directory
+ENV_FILE = EXECUTABLE_DIR / '.env'  # For loading and saving
 ENV_SAVE_FILE = EXECUTABLE_DIR / '.env'  # For saving
 V4_SCRIPT = Path(BASE_DIR) / 'labfolder_backup_v4.py'
 
