@@ -246,7 +246,17 @@ To change where backups are saved:
    ```bash
    DOWNLOAD_DIR=./customized_name
    ```
-
+### Build binary executable yourself
+If you want to build the executable file on your own machine:
+1. Ensure you have PyInstaller installed:
+   ```bash
+   pip install pyinstaller
+   ```
+2. Run PyInstaller to create the executable:
+   ```bash
+   pyinstaller labfolder_gui.py --onefile --name "LabFolder Archive" --icon image.ico --add-data "labfolder_backup_v4.py;."
+   ```
+You can then find the executable in the `dist` folder created by PyInstaller. Your can also change the image.ico to your own icon file if desired.
 
 
 ## 🐛 Troubleshooting
@@ -278,6 +288,10 @@ To change where backups are saved:
 ## 📄 Disclaimer
 
 **This tool is provided “as is” without any warranty of any kind, express or implied. The author, lab, and LMU Munich are not responsible for any data loss, system errors, or other damages arising from the use of this software. Users should verify all outputs and use the tool at your own risk.**
+
+
+
+
 
 
 ## ✨ Tips for Best Results
