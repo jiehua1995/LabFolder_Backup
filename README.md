@@ -301,3 +301,13 @@ You can then find the executable in the `dist` folder created by PyInstaller. Yo
 - 💾 **Keep multiple backup copies** in different locations
 - 🔄 **Try different tools** to backup your data.
 - 🔍 **Verify the data** after backup.
+
+
+
+
+## 🧾 License
+
+This project is licensed under the **MIT License with Commercial Restriction**.
+
+- 🧑‍🔬 Academic, personal, and non-commercial use: **Free**
+- 💼 Commercial use: **Contact me**
